@@ -1,3 +1,7 @@
-# meteorSchool
-미티어스쿨 수업 결과
+# Meteor School
+
+The second term of Meteor School 
+
+first term 
+http://www.meteorschool.com
  
