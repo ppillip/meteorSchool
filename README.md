@@ -2,6 +2,8 @@
 
 Source code of the second term
 
-first term 
+* The first term 
 http://www.meteorschool.com
  
+* Meteor School facebook group 
+https://www.facebook.com/groups/meteorschool/
