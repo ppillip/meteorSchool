@@ -1,0 +1,31 @@
+<template name="addressList">
+    <table class="table table-bordered table-condensed table-striped table-hover">
+        <thead>
+        <tr class="info">
+            <th>이름</th>
+            <th>전화번호</th>
+            <th>이메일</th>
+            <th>회사</th>
+            <th>생일</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        {{#each list}}
+            {{>addressListItem}}
+        {{/each}}
+        </tbody>
+    </table>
+</template>
+
+<template name="addressListItem">
+    <tr>
+        <td>{{this.point}}</td>
+        <td>{{this.phone}}</td>
+        <td>{{this.email}}</td>
+        <td>{{this.company}}</td>
+        <td>{{this.birthday}}</td>
+        <td><button class="btn btn-warning btn-sm" name="remove"><i class="glyphicon glyphicon-trash"></i> 삭제</button></td>
+    </tr>
+</template>
+
