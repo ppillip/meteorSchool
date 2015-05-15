@@ -2101,6 +2101,10 @@ var fixtures = [
     }
 ];
 
+/*
+* Meteor 가 구동 될때 서버측에서 실행되는 코드 입니다.
+* 10건만 fixture 데이터를 생성 합니다.
+* */
 Meteor.startup(function () {
     if(AddressBook.find().count() === 0){
         for(var i=0,len=10; i<len;i++){
